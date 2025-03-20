@@ -129,7 +129,7 @@ elif menu == "Search Book":
             st.warning("⚠️ No matching books found!")
 
 elif menu == "View All Books":
-    st.header("📚📕 All Books in Library")
+    st.header("📚 All Books in Library")
     books = get_all_books()
     if not books:
         st.write("📭 Your library is empty!")
